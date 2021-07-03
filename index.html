@@ -1,1 +1,207 @@
-<h1>hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../loader/loader.css">
+    <title>CuratedSolution</title>
+</head>
+<body onload="myfunction()">
+    <div class="container1">
+        <div class="loader" >
+          <div class="circle" id="a"></div>
+          <div class="circle" id="b"></div>
+          <div class="circle" id="c"></div>
+        </div>
+        <div class="caption">We're testing your patience😉....</div>
+      </div>
+    <!--main container-->
+    <div class="main">
+        <!--Navigation-->
+        <nav class="nav-items">
+            <div class="logo" ><a href="home1.html">CuratedSolution</a></div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+               <li><a  href="../home/home1.html">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact" class="disabled">Services</a></li>
+               <li><a href="../contact/contact.html">Contact</a></li>
+               
+            </ul>
+         </nav>
+         <!--main section-->
+         <main>
+            <div class="sections">
+                <!--main page-->
+                <section id="home">
+                    <div class="main-img-animation"><div class="bg-img"><img src="../../images/196te.png" alt=""></div></div>
+                    <div class="main-company">
+                        <div class="box">
+                            <h1>Curated<span style="display: block;">Solution</span></h1>
+                            <div class="box-row">
+                                <div class="small-box"></div>
+                            <div class="small-box"></div>
+                            <div class="small-box"></div>
+                            </div>
+                        <p>Customer service shouldn't just be a department, it should be the entire company
+                        </p>
+                        <button id="btn"><a href="#about">Read More</a></button>
+                        </div>
+                    </div>
+                </section>
+                <!--about section-->
+                <div class="about" id="about">
+                    <div class="left-col">
+                        <div class="about-box">
+                            <h2>About</h2>
+                            <div class="box-row">
+                                <div class="small-box"></div>
+                                <div class="small-box"></div>
+                                <div class="small-box"></div>
+                            </div>
+                            <p>We design and maintain our websites according to the needs of our customers.While we worked for our clients, the only focus that made us unique is the quality delivery being served at an affordable cost. The design that we had crafted for customers stood unique and made us to propel across the landscape.</p>
+                            <button id="btn"><a href="#about">Read More</a></button>
+                        </div>
+                    </div>
+                    <div class="right-col">
+                        <img src="../../images/Layer 12.png" alt="about">
+                    </div>
+                </div>
+                <!--services page-->
+                <div class="services" id="services">
+                    <div class="sv">
+                        <div class="sv-title"><h1><span>Services</span></h1></div>
+                        <div class="sv-body">
+                            <div class="sv-body-1">
+                                <div class="sv-box">
+                                    <h2>Web Development</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus arcu a nunc imperdiet iaculis. Sed ornare scelerisque diam in.</p>
+                                </div>
+                                <div class="sv-box">
+                                    <h2>Web Hosting</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus arcu a nunc imperdiet iaculis. Sed ornare scelerisque diam in.</p>
+                                </div>
+                                <div class="sv-box">
+                                    <h2>Digital Marketing</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus arcu a nunc imperdiet iaculis. Sed ornare scelerisque diam in.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="sv-read-more"><span><a href="../../main/index.html">Read More</a></span></div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="contact">
+                <div class="left-col">
+                    <div class="cols">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="details">
+                            <h4>Address</h4>
+                            <p>46A,Kammavar street,<br>ondipudhur,<br>Coimbatore-641016.</p>
+                        </div>
+                    </div>
+                    <div class="cols">
+                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="details">
+                            <h4>Phone</h4>
+                            <a href="tel:6374520688">6374520688</a>
+                        </div>
+                    </div>
+                    <div class="cols">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div class="details">
+                            <h4>Email</h4>
+                            <a href="mailto:curatedsolutions@gmail.com">curatedsolution@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <form action="" method="post">
+                        <h2>Send Message</h2>
+                        <input type="text" name="fullname" id="name" placeholder="Full Name">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <textarea name="Query" id="query" cols="30" rows="3" placeholder="Type Your Message"></textarea>
+                        <button class="btn" name="btn-send">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-dark">
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-md-4 item">
+                                <h3>Services</h3>
+                                <ul>
+                                    <li><a href="#">Web design</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">Hosting</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 item">
+                                <h3>About</h3>
+                                <ul>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 item">
+                                <h3>Contact</h3>
+                                <ul>
+                                    
+                                    <li><a href="mailto:curatedsolution@gmail.com">curatedsolution@gmail.com</a></li>
+                                    <li><a href="tel:+">6374520688</a></li>
+                                </ul>
+                            </div>
+                            <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                        </div>
+                        <p class="copyright">Copyright © 2021.All rights resevered</p>
+                    </div>
+                </footer>
+            </div>
+         </main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+
+    </div>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+         function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        const currentLocation=location.href;
+        const menuItem=document.querySelectorAll('a');
+        const menuLength=menuItem.length
+        for(let i=0;i<menuLength;i++)
+        {
+            if(menuItem[i].href===currentLocation){
+                menuItem[i].className="active"
+            }
+        }
+        var preloader = document.querySelector(".container1");
+        function myfunction(){
+            preloader.style.display="none";
+        }
+    </script>
+    
+</body>
+</html>
